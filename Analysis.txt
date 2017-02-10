@@ -1,0 +1,6 @@
+Marc Acevedo
+CS366 Assignment 2
+Analysis & Design:
+
+	In order to implement low-level file IO into our C programming special attention had to be paid to the use of arrays. Moreover, a lot of attention had to be paid to variables and their declaration and placement. With the increased access and sensitivity of memory the whole assignment made me very test-driven as to ensure I'm accessing the correct data. As far as the structure of my code, I tried to use a file prcoessing method employed by all other subsequent methods in my code to keep the main method clear and to give each file command its own function. I did find I had trouble with error handling though.  I am sure I could reach the errors in code, however, more often than not what resulted was a segmentation fault. This is largely due to combinations of commands in succession however, as sometimes when a file gets renamed or deleted and then appended to or read from, it cannot access the data, resulting in said issue.
+

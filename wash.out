@@ -1,0 +1,63 @@
+Script started on Fri 10 Feb 2017 12:02:27 PM EST
+macevedo@rerun:~/Desktop$ ./exec first_test second_test third_test 
+Menu:
+Press 'c' to list the current file
+Press 'd' to copy the current file to another file
+Press 'r' to rename the current file 
+Press 't' to zero the current file 
+Press 'a' to append the current file to another file
+Press 'l' to display the last 100 bytes of the current file
+Press 'x' to change the current file's access time to the current time
+Press 'm' to change the current file's access permission
+Press 'n' to goto the next file 
+Press 'q' to quit 
+
+File first_test: command: c
+This is my first line of test code!
+File first_test: command: d
+Enter file to copy to:
+copy_one
+File first_test: command: c
+This is my first line of test code!
+File first_test: command: t
+File first_test: command: c
+File first_test: command: x
+File first_test: command: m
+Enter the desired permission number: 777
+File first_test: command: n
+File second_test: command: c
+This is the second test file.... Let's hope ths works
+
+File second_test: command: a
+Enter file to append: 
+third_test
+File second_test: command: l
+This is the second test file.... Let's hope ths works
+
+
+File second_test: command: r
+Enter new name: rename_two
+File renamed successfully! File second_test: command: n
+File third_test: command: c
+sdfsbdhjafsdfjkfh
+This is the second test file.... Let's hope ths works
+
+File third_test: command: x u
+File deleted Successfully
+File third_test: command: c
+FILE ERROR : No such file or directory
+File third_test: command: q
+Invalid argument. Try again. 
+q has been entered. Program is now exiting.
+
+macevedo@rerun:~/Desktop$ ls
+copy_one  exec	first_test  rename_two	wash.c	wash.out
+macevedo@rerun:~/Desktop$ vi copy_one 
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;51r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[51;1H"copy_one" 1L, 36C[>c[1;1HThis is my first line of test code!
+[94m~                                                                                             [3;1H~                                                                                             [4;1H~                                                                                             [5;1H~                                                                                             [6;1H~                                                                                             [7;1H~                                                                                             [8;1H~                                                                                             [9;1H~                                                                                             [10;1H~                                                                                             [11;1H~                                                                                             [12;1H~                                                                                             [13;1H~                                                                                             [14;1H~                                                                                             [15;1H~                                                                                             [16;1H~                                                                                             [17;1H~                                                                                             [18;1H~                                                                                             [19;1H~                                                                                             [20;1H~                                                                                             [21;1H~                                                                                             [22;1H~                                                                                             [23;1H~                                                                                             [24;1H~                                                                                             [25;1H~                                                                                             [26;1H~                                                                                             [27;1H~                                                                                             [28;1H~                                                                                             [29;1H~                                                                                             [30;1H~                                                                                             [31;1H~                                                                                             [32;1H~                                                                                             [33;1H~                                                                                             [34;1H~                                                                                             [35;1H~                                                                                             [36;1H~                                                                                             [37;1H~                                                                                             [38;1H~                                                                                             [39;1H~                                                                                             [40;1H~                                                                                             [41;1H~                                                                                             [42;1H~                                                                                             [43;1H~                                                                                             [44;1H~                                                                                             [45;1H~                                                                                             [46;1H~                                                                                             [47;1H~                                                                                             [48;1H~                                                                                             [49;1H~                                                                                             [50;1H~                                                                                             [m[51;77H1,1[11CAll[1;1H[?12l[?25h[?25l[51;1H[K[51;1H:[?12l[?25hx[?25l[?12l[?25h[?25l[51;1H[K[51;1H[?1l>[?12l[?25h[?1049lmacevedo@rerun:~/Desktop$ vi rename_two 
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;51r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[51;1H"rename_two" 2L, 55C[>c[1;1HThis is the second test file.... Let's hope ths works
+
+[94m~                                                                                             [4;1H~                                                                                             [5;1H~                                                                                             [6;1H~                                                                                             [7;1H~                                                                                             [8;1H~                                                                                             [9;1H~                                                                                             [10;1H~                                                                                             [11;1H~                                                                                             [12;1H~                                                                                             [13;1H~                                                                                             [14;1H~                                                                                             [15;1H~                                                                                             [16;1H~                                                                                             [17;1H~                                                                                             [18;1H~                                                                                             [19;1H~                                                                                             [20;1H~                                                                                             [21;1H~                                                                                             [22;1H~                                                                                             [23;1H~                                                                                             [24;1H~                                                                                             [25;1H~                                                                                             [26;1H~                                                                                             [27;1H~                                                                                             [28;1H~                                                                                             [29;1H~                                                                                             [30;1H~                                                                                             [31;1H~                                                                                             [32;1H~                                                                                             [33;1H~                                                                                             [34;1H~                                                                                             [35;1H~                                                                                             [36;1H~                                                                                             [37;1H~                                                                                             [38;1H~                                                                                             [39;1H~                                                                                             [40;1H~                                                                                             [41;1H~                                                                                             [42;1H~                                                                                             [43;1H~                                                                                             [44;1H~                                                                                             [45;1H~                                                                                             [46;1H~                                                                                             [47;1H~                                                                                             [48;1H~                                                                                             [49;1H~                                                                                             [50;1H~                                                                                             [m[51;77H1,1[11CAll[1;1H[?12l[?25h[?25l[51;1H[K[51;1H:[?12l[?25hx[?25l[?12l[?25h[?25l[51;1H[K[51;1H[?1l>[?12l[?25h[?1049lmacevedo@rerun:~/Desktop$ exit
+exit
+
+Script done on Fri 10 Feb 2017 12:06:42 PM EST
